@@ -10,7 +10,7 @@ api_path = os.environ['API_PATH']
 
 
 def lambda_handler(event, context):
-    aws_host = f'{api_string}.execute-api.ap-northeast-1.amazonaws.com'  # noqa: E501
+    aws_host = f'{api_string}.execute-api.{REGION_NAME}.amazonaws.com'  # noqa: E501
     url = f'https://{aws_host}/{api_path}'
 
     credentials = get_credentials()

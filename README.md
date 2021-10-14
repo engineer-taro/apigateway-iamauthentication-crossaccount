@@ -6,6 +6,7 @@ IAM認証をかけたAPIGatewayを別アカウントのLambdaから呼び出す�
 詳細は[こちら](https://qiita.com/drafts/59bc66de255764748ae5)を参考にしてください。  
 
 # デプロイ手順
+※ AWSリソースを作成するので、いくらかお金がかかります
 ※ 検証にはAWSアカウントが二つ必要  
 ※ AWS SAMをインストールしていない場合インストールが必要  
 ※ Dockerをインストールしていない場合`sam build --use-container`の際にDockerが必要  
