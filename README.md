@@ -3,7 +3,7 @@
 
 # このリポジトリについて
 IAM認証をかけたAPIGatewayを別アカウントのLambdaから呼び出す構成をSAMで作成してみました。  
-詳細は[こちら](https://qiita.com/drafts/59bc66de255764748ae5)を参考にしてください。  
+詳細は[こちら](https://qiita.com/engineer-taro/items/59bc66de255764748ae5)を参考にしてください。  
 
 # デプロイ手順
 ※ AWSリソースを作成するので、いくらかお金がかかります
